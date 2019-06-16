@@ -1,0 +1,26 @@
+.about
+	grid-column: center-start / center-end
+	margin-top: 6rem
+	margin-bottom: 6rem
+
+	display: grid
+	grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr))
+	grid-column-gap: 5rem
+
+	span
+		color: $blue
+		font-size: 3.3rem
+		margin-bottom: 2.25rem
+
+	h2
+		font-size: 1.9rem
+		font-weight: 400
+		margin-bottom: 2.25rem
+		color: $black
+
+	p
+		font-size: 1.40rem
+		color: $black-light
+
+		&:not(last-child)
+			margin-bottom: 2.25rem

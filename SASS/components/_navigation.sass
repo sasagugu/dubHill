@@ -1,0 +1,95 @@
+.nav 
+	grid-column: col-start 1 / col-end 8
+	height: 5rem
+	width: 100%
+	margin-top: 3rem
+
+	display: grid
+	justify-content: space-between
+	grid-template-columns: max-content 1fr max-content
+	justify-items: center
+	align-items: center
+
+	&__left
+		display: flex
+		align-items: stretch
+
+		&-checkbox
+			visibility: hidden
+
+		&-label
+			font-size: 3rem
+			visibility: hidden
+			z-index: 1000
+
+		&-list
+			list-style: none
+			display: inline-block
+
+
+		&-item
+			display: inline-block
+			
+
+		&-link:link,
+		&-link:visited
+			text-decoration: none
+			font-size: 1.6rem
+			color: $black
+			padding: 1.6rem
+			border-bottom: 2px solid transparent
+			transition: all .1s
+
+			&:hover
+				border-bottom: 2px solid $blue
+
+
+	&__logo
+		font-size: 2.5rem
+		text-transform: uppercase
+		font-weight: 400
+		transition: all .2s
+
+		span
+			font-weight: 900
+
+		&:hover
+			transform: scale(1.2)
+
+
+
+	&__right
+
+		&-link
+			text-decoration: none
+			font-size: 1.6rem
+			color: $black
+			padding: 1.6rem
+			border-bottom: 2px solid transparent
+			transition: all .1s
+
+			&:hover
+				border-bottom: 2px solid $blue
+
+			&-help
+				color: $black-light
+
+			&-contacts
+
+			&-app
+				background: $blue
+				border-radius: 100px
+				color: white
+				padding: .8rem 2rem
+				border-bottom: none
+
+
+				span
+					color: white
+					font-size: 1.5rem
+					padding-right: 1rem
+
+				&:hover
+					border-bottom: none
+
+
