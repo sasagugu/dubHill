@@ -7,12 +7,12 @@ You can use this site as a template for free
 
 ### Scripts
 
-Forkify utilizes Webpack to compile its files
+dubHill utilizes Webpack to compile its files
 
-##### Run webpack in development mode:
+#### Run webpack in development mode:
 
 $ npm run start
 
-##### Run webpack in production mode:
+#### Run webpack in production mode:
 
 $ npm run build
