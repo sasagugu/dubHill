@@ -16,3 +16,6 @@ $ npm run start
 #### Run webpack in production mode:
 
 $ npm run build
+
+
+Developed exclusively for practice.
